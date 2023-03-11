@@ -5,7 +5,7 @@ Run the Zookeeper and kafka Broker before startting the application
 version: '3'
 services:
   zookeeper:
-    image: confluentinc/cp-zookeeper:7.3.2![TechTalk Kafka](https://user-images.githubusercontent.com/21155599/224513893-beb0f5c9-e487-49ed-b15d-d5dfea83ff30.png)
+    image: confluentinc/cp-zookeeper:7.3.2
 ![TechTalk Kafka](https://user-images.githubusercontent.com/21155599/224513918-7a1d9cec-9ee3-4381-99a0-330b349d17ab.png)
 
     container_name: zookeeper
